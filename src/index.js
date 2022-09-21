@@ -1,4 +1,8 @@
 import ReactDOM from 'react-dom';
+import React from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 
-ReactDOM.render("Hello Good Morning Student", document.getElementById('root') );
+import DataTable from './DataTable';
+
+
+ ReactDOM.render( <DataTable />,document.getElementById('root') );
